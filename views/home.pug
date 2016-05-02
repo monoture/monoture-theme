@@ -1,0 +1,14 @@
+extends ./layouts/theme.pug
+
+block content
+  div.jumbotron.jumbotron-fluid
+    div.container
+      h1.display-3 Welcome to your homepage!
+      p.lead Okay, so this is your website's main page. Obviously not a lot going on right now, so time to start creating a template or download a theme.
+
+  main.container
+    each post in posts
+      div.card.card-block
+        h3.card-title
+          a(href='/post/' + post.slug)= post.title
+        p.card-text= post.body

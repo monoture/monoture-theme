@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title #{title}
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css', media='screen')
+  body
+
+    nav.navbar.navbar-dark.navbar-static-top.bg-inverse
+      .container
+        a(href='/').navbar-brand My Blog
+
+    block content
