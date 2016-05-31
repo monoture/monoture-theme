@@ -5,4 +5,6 @@ module.exports = function(app) {
     process.cwd() + '/views/',
     __dirname + '/views/'
   ]);
+
+  app.locals.basedir = __dirname + '/views/';
 }
