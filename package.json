@@ -4,6 +4,14 @@
   "description": "Sample Monoture Theme",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoture/monoture-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamespegg/monoture-theme/issues"
+  },
+  "homepage": "https://github.com/jamespegg/monoture-theme#readme",  
   "author": "James Pegg <jamescpegg@gmail.com> (http://jamespegg.co.uk)",
   "license": "MIT",
   "dependencies": {
