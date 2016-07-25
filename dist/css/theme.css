@@ -1,0 +1,49 @@
+.hero-header {
+  height : 80vh;
+  min-height : 300px;
+  margin-top : -54px;
+  padding-top : 64px;
+  background-image : url('/img/home.jpg');
+  background-size: cover;
+  background-position: center;
+  display:flex;
+}
+
+.hero-header h1 {
+  align-self : flex-end;
+  color : #fff;
+  padding : 0 1em 1em;
+  text-align: center;
+  width : 100%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.hero-header h1 small {
+  display : block;
+  font-size : 0.5em;
+  margin-top : 10px;
+}
+
+.hero-cite {
+  background : #DDD;
+  text-align: right;
+  padding : 5px 10px;
+  color : #999;
+}
+
+.hero-cite a {
+  color : #666;
+}
+
+.footer {
+  padding-top : 1em;
+  border-top : 1px solid #ddd;
+}
+
+.navbar-brand {
+  float : none;
+}
+
+.navbar-brand a {
+  color : #666;
+}

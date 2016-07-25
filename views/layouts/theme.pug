@@ -2,12 +2,22 @@ doctype html
 html
   head
     meta(charset='utf-8')
+    meta(name='viewport', content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
     title #{title}
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css', media='screen')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', media='screen')
+    link(rel='stylesheet', href='/css/theme.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css')
   body
 
-    nav.navbar.navbar-dark.navbar-static-top.bg-inverse
+    nav.navbar.navbar-static-top
       .container
-        a(href='/').navbar-brand= site.name
+        .navbar-brand
+          a(href='/')= site.name
 
     block content
+
+    .bg-faded.p-t-2
+      .container
+        footer.footer
+          p.text-xs-center &copy; #{site.name} 2016
