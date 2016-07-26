@@ -1,7 +1,7 @@
 {
   "name": "monoture-theme",
   "version": "0.0.1",
-  "description": "Sample Monoture Theme",
+  "description": "Reference Monoture Theme",
   "main": "index.js",
   "scripts": {},
   "repository": {
@@ -9,9 +9,9 @@
     "url": "git+https://github.com/monoture/monoture-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/jamespegg/monoture-theme/issues"
+    "url": "https://github.com/monoture/monoture-theme/issues"
   },
-  "homepage": "https://github.com/jamespegg/monoture-theme#readme",  
+  "homepage": "https://github.com/monoture/monoture-theme#readme",
   "author": "James Pegg <jamescpegg@gmail.com> (http://jamespegg.co.uk)",
   "license": "MIT",
   "dependencies": {
